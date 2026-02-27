@@ -1,90 +1,90 @@
-\# Sentiment Analysis
+# Sentiment Analysis
 
 
 
-\## 📌 Problem Statement
+## Problem Statement
 
-Brands receive massive volumes of unstructured social media data daily.
+- Brands receive massive volumes of unstructured social media data daily.
 
-Manual monitoring fails to detect early crisis signals.
+- Manual monitoring fails to detect early crisis signals.
 
-This project builds an deep learning pipeline to analyze sentiment and detect crisis risks.
-
-
-
-\## 📊 Dataset
-
-\- Sentiment140 Twitter sentiment dataset
-
-\- Binary sentiment: Positive / Neutral / Negative
-
-\- ~1.6M tweets
+- This project builds an deep learning pipeline to analyze sentiment and detect crisis risks.
 
 
 
-\## 🧠 Project Architecture
+## Dataset
 
-1\. Text Cleaning \& Preprocessing
+- Sentiment140 Twitter sentiment dataset
 
-2\. Exploratory Data Analysis (EDA)
+- Binary sentiment: Positive / Neutral / Negative
 
-3\. Baseline Sentiment Classification (TF-IDF + Logistic Regression)
-
-4\. Probability-based Sentiment Scoring
-
-5\. Crisis Severity Detection
-
-6\. Streamlit Deployment
+- ~1.6M tweets
 
 
 
-\## ⚙️ Models Used
+## Project Architecture
 
-\- TF-IDF Vectorizer
+1. Text Cleaning \& Preprocessing
 
-\- Logistic Regression
+2. Exploratory Data Analysis (EDA)
 
+3. Baseline Sentiment Classification (TF-IDF + Logistic Regression)
 
+4. Probability-based Sentiment Scoring
 
-\## 📈 Key Results
+5. Crisis Severity Detection
 
-\- Accuracy: 81%
-
-\- F1-score: 0.81
-
-\- Probability-based sentiment scoring enabled flexible crisis thresholds
+6. Streamlit Deployment
 
 
 
-\## 🚀 Deployment
+## Models Used
+
+- TF-IDF Vectorizer
+
+- Logistic Regression
+
+
+
+## Key Results
+
+- Accuracy: 81%
+
+- F1-score: 0.81
+
+- Probability-based sentiment scoring enabled flexible crisis thresholds
+
+
+
+## Deployment
 
 A Streamlit app allows:
 
-\- Single-text sentiment inference
+- Single-text sentiment inference
 
-\- Bulk CSV sentiment analysis
+- Bulk CSV sentiment analysis
 
-\- Severity-based risk classification
-
-
-
-\## 🛠 Tech Stack
-
-\- Python
-
-\- Pandas, NumPy
-
-\- Scikit-learn
-
-\- Streamlit
+- Severity-based risk classification
 
 
 
-\## 🔮 Future Enhancements
+## Tech Stack
 
-\- BERT-based sentiment model
+- Python
 
-\- Sarcasm detection
+- Pandas, NumPy
 
-\- Real-time Twitter API integration
+- Scikit-learn
+
+- Streamlit
+
+
+
+## Future Enhancements
+
+- BERT-based sentiment model
+
+- Sarcasm detection
+
+- Real-time Twitter API integration
 
